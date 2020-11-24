@@ -1,0 +1,4 @@
+#!/bin/bash
+rm patch-nextrevivl.ankiaddon
+zip -r patch-nextrevivl.ankiaddon config.json __init__.py README.md LICENSE \
+manifest.json 
