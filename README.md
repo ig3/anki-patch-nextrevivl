@@ -37,7 +37,19 @@ select Easy until the interval and card factor increase sufficiently that
 the next interval for Good is more than 1 day longer than the current
 interval.
 
-## Background
+## Motivation
+
+By default, Hard Interval is greater than 1 and the interval for Good
+increases by at least 2 days. At short intervals (e.g. 1 or 2 days) the
+increase really should be only 1 day. My memory is poor and the jump from 1
+day (for a just learned card) to 3 days was too much.
+
+More significant and the immediate motivation for me making this add-on is
+when I changed Hard Interval to 90% so that the interval would gradually
+decrease for persistently Hard cards. With this change, I ended up
+accumulating cards at interval of 2 days. With interval 2 days, the new
+interval for Good was also 2 days - no progress. The only way to progress
+was Easy.
 
 These problems arise because in the default scheduler, the minimum new
 interval for Good is one day more than the new interval for Hard (i.e. the
